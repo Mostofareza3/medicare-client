@@ -1,0 +1,65 @@
+.introduce-container{
+    display: flex; 
+    justify-content: center;
+    align-items: baseline;
+    text-align: left;
+} 
+
+.experts-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.expert-card{
+    height: 500px;
+    width: 250px;
+    background-color: #F1F1F1;
+    margin: 5px;
+}
+
+.expert-card img{
+    width: 100%;
+    height: 230px;
+}
+.expert-title{
+    border-bottom: 2px solid rgb(230, 65, 65);
+    margin: 10px 0px;
+}
+
+.expert-details{
+    padding: 15px;
+}
+
+.btn-regular{
+    border-radius: 20px;
+    outline: none;
+    padding: 10px;
+    border: none;
+    background-color: #D10B22;
+    color: white;
+}
+.title{
+    margin-bottom: 10px;
+    border-bottom: 2px solid #D10B22;
+    padding: 10px;
+    color: #D10B22;
+}
+
+@media screen and (max-width: 480px)  {
+    .introduce-container{
+        flex-direction: column;
+    }
+    .experts-container{
+        flex-direction: column;
+    }
+    .overview-section{
+        flex-direction: column;
+    }
+    .testimonial{
+        
+       display: none;
+    }
+    .treatment-container{
+        flex-direction: column;
+    }
+}

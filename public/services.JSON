@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Heart surgery",
+        "title": "A BETTER LIFE",
+        "img": "https://2rdnmg1qbg403gumla1v9i2h-wpengine.netdna-ssl.com/wp-content/uploads/sites/3/2020/09/minimalInvasiveSurgery-071520-CC-770x553-1-650x428.jpg",
+        "id": 1,
+        "description": "Uniquely deploy cross-unit benefits with wireless testing procedures. Collaboratively build backward compatible relationships whereas tactical paradigms."
+    },
+    {
+        "name": "Valve prolapse",
+        "title": "GETTING A NEW CHANCE",
+        "img": "https://www.devadosshospitals.com/wp-content/uploads/2020/02/Image-by-Sasin-Tipchai-from-Pixabay.jpg",
+        "id": 2,
+        "description": "Quickly incentivize impactful action items before tactical collaboration and idea-sharing. Monotonically engage intellectual capital through wireless opportunities."
+    },
+    {
+        "name": "Emergencies",
+        "title": "PACEMAKER",
+        "img": "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(38)(279).jpg",
+        "id": 8,
+        "description": "Globally harness multimedia based collaboration and idea-sharing with backend products. Continually whiteboard superior opportunities via covalent scenarios."
+    },
+    {
+        "name": "Emergencies",
+        "title": "SAVING LIVES",
+        "img": "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(38)(279).jpg",
+        "id": 3,
+        "description": "Globally harness multimedia based collaboration and idea-sharing with backend products. Continually whiteboard superior opportunities via covalent scenarios."
+    },
+    {
+        "name": "Emergencies",
+        "title": "HEART SURGERY",
+        "img": "https://wwwnc.cdc.gov/travel/images/doctors.jpg",
+        "id": 4,
+        "description": "Globally harness multimedia based collaboration and idea-sharing with backend products. Continually whiteboard superior opportunities via covalent scenarios."
+    },
+    {
+        "name": "Emergencies",
+        "title": "LIVER OPERATION",
+        "img": "https://www.cdc.gov/patientsafety/images/patientsafety_456px.jpg",
+        "id": 5,
+        "description": "Globally harness multimedia based collaboration and idea-sharing with backend products. Continually whiteboard superior opportunities via covalent scenarios."
+    },
+    {
+        "name": "Emergencies",
+        "title": "HEART TRASPARENRT",
+        "img": "http://aptelresearch.com/wp-content/uploads/2013/10/doctorpaitnttalking.jpg",
+        "id": 6,
+        "description": "Globally harness multimedia based collaboration and idea-sharing with backend products. Continually whiteboard superior opportunities via covalent scenarios."
+    },
+
+
+
+    {
+        "name": "Emergencies",
+        "title": "SAVING LIVES",
+        "img": "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(38)(279).jpg",
+        "id": 7,
+        "description": "Globally harness multimedia based collaboration and idea-sharing with backend products. Continually whiteboard superior opportunities via covalent scenarios."
+    }
+]

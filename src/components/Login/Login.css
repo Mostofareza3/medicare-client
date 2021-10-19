@@ -1,0 +1,44 @@
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #D10B22;
+}
+input{
+    display: block;
+    outline: none;
+    border: none;
+}
+.input-field{
+    outline: none;
+    margin: 20px 0px;
+    padding: 10px 15px;
+    width: 400px;
+border-bottom: 1px dotted #D10B22;
+
+}
+
+.form-container{
+background-color: white;
+height: 100%;
+width: 40%;
+text-align: left;
+padding: 50px 30px ;
+border: 2px solid #D10B22;
+
+}
+.submit-button{
+    width: 400px;
+    background-color: #a12735;
+    color: white;
+    padding: 10px;
+}
+.google-login-button{
+    width: 400px;
+    background-color: #f5dd03;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border:none
+}

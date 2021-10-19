@@ -1,0 +1,20 @@
+.home-news-container{
+    display: flex;
+    justify-content: center;
+}
+.update-news-section{
+    margin-top: 70px;
+}
+
+.single-news{
+    height: 400px;
+    width: 300px;
+    background-color: #EDEDED;
+    margin: 20px;
+    text-align: center;
+    padding: 5px;
+}
+.single-news img{
+    width: 100%;
+    margin-bottom: 5px;
+}

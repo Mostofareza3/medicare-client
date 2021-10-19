@@ -1,0 +1,36 @@
+.overview-section{
+    margin-top: 80px;
+    display: flex;
+    text-align: left;
+    padding: 30px
+}
+.overview-right{
+    text-align: left;
+    border: 3px solid gray;
+    padding: 40px;
+};
+.overview-left{
+    text-align: left;
+   
+    
+};
+.icon{
+    color: red;
+    font-size: 30px;
+}
+
+.treatment-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.single-treatment{
+    width: 300px;
+    height: 300px;
+    border-left: 2px solid gray;
+    padding: 30px;
+    text-align: left;
+}
+.single-treatment img{
+    width: 100px;
+}
