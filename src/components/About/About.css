@@ -1,0 +1,11 @@
+.about-section{
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.about-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:left;
+}

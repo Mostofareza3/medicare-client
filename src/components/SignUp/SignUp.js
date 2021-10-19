@@ -17,7 +17,8 @@ const SignUp = () => {
     }
 
     const getUserName = (e) => {
-        console.log(e.target.value)
+        setName(e.target.value)
+        console.log(name)
     }
 
     const getEmail = (e) => {
@@ -30,7 +31,7 @@ const SignUp = () => {
     return (
         <div className="login-container">
             <div className="form-container">
-                <div className="d-flex">
+                <div>
                     <h2>Sign Up </h2>
                     <p className="text-danger">{error}</p>
                 </div>

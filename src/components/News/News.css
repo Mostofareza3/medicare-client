@@ -1,0 +1,7 @@
+.news-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-content: center;
+    background-color: #D10B22;
+}

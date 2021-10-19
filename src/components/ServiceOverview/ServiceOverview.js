@@ -8,7 +8,7 @@ const ServiceOverview = () => {
             <div className="overview-section">
                 <div className="overview-left">
                     <h3 className="title">SERVICES AT ONE GLANCE</h3>
-                    <h1>HOW WE CAN <span className="">HELP YOU?</span> </h1>
+                    <h1>HOW WE CAN <span className="highlight">HELP YOU?</span> </h1>
                     <p>Credibly innovate granular internal or “organic“ sources whereas high standards in web-readiness. Energistically scale future-proof core competencies vis-a-vis impactful experiences. Dramatically synthesize integrated schemas with optimal networks.</p>
                 </div>
 

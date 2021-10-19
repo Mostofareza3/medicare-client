@@ -1,0 +1,16 @@
+.single-service-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid dotted red;
+    
+
+}
+
+.single-service img{
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}

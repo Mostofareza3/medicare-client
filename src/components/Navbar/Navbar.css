@@ -5,6 +5,18 @@
     font-weight: 500;
 }
 .navbar{
-    margin-bottom: 50px;
+    margin-bottom: 60px;
+
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    letter-spacing: 1mm;
+    font-size: 20px;
+}
+.logo:hover{
+    color: red;
 
 }

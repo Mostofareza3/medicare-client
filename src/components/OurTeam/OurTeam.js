@@ -13,7 +13,7 @@ const OurTeam = () => {
                     </div>
                     <div>
                         <h2 className="title">INTRODUCE OUR TEAM</h2>
-                        <h1>Great passion for Healing</h1>
+                        <h1>Great passion <span className="highlight">for Healing</span> </h1>
                         <p>Some up and coming trends are healthcare consolidation for independent healthcare centers that see a cut in unforeseen payouts. High deductible health plans are also expected to transpire along with a growth of independent practices.</p>
                         <div>
                             <div>Signatures</div>
@@ -24,8 +24,6 @@ const OurTeam = () => {
                 </div>
             </div>
 
-
-            {/* our experts section  */}
             <div className="experts-container">
                 {
                     doctors.map(doctor =>
@@ -39,7 +37,6 @@ const OurTeam = () => {
                                 <h4>{doctor.name}</h4>
                                 <small>{doctor.des}</small> <br />
                             </div>
-                            <button className="btn-regular">Find Out More</button>
                         </div>
 
                     )

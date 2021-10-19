@@ -11,21 +11,26 @@ const Navigation = () => {
     <div className="navbar">
       <Navbar fixed="top" bg="dark" variant="dark" expand="md sm">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Link className="logo" readOnly to="/home">MEDICARE</Link>
           <Nav className="me-auto">
             <Link className="nav-a" to="/home">Home</Link>
+            <Link className="nav-a" to="/about">About</Link>
             <Link className="nav-a" to="/services">Services</Link>
             <Link className="nav-a" to="/news">News</Link>
+            <Link className="nav-a" to="/contact">Contact</Link>
           </Nav>
           <Nav>
-            {!user.email ? <><Link className="nav-a" to="/login">Login</Link>
-              <Link className="nav-a" to="/signup">Sign up</Link></>
+            {user.email ? 
+            <button onClick={logOut} className="btn-danger rounded-2 mx-2 px-2">LOG OUT 
+            <i className="fas fa-sign-out-alt"></i>
+            </button>
               :
-              <button onClick={logOut} className="btn-danger rounded-2 mx-2 px-2">LOG OUT 
-              <i className="fas fa-sign-out-alt"></i>
-              </button>}
+             
+              <><Link className="nav-a" to="/login">Login</Link>
+              <Link className="nav-a" to="/signup">Sign up</Link></>
+              }
             {user.email ?
-              <small className="user-name text-white" eventKey={2}> Login as : {user?.displayName}
+              <small className="user-name text-white" eventkey={2}> Login as : {user?.displayName}
 
               </small> : <small>{ }</small>}
           </Nav>

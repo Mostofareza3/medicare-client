@@ -3,19 +3,29 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <>
-            <footer className="footer-container row">
-                <div className="col-md-4">
-                    <p>first</p>
-                </div>
-                <div className="col-md-4">
-                    <p>Second</p>
-                </div>
-                <div className="col-md-4">
-                    <p>Third</p>
-                </div>
-            </footer>
-        </>
+      <div className=" footer-container">
+           <div className="container">
+            <footer className="row">
+            <div className="col-md-4 footer-part">
+                <h1 className="web-name">MEDICARE</h1>
+               <p>Stay Connected With MEDICARE</p>
+            </div>
+            <div className="col-md-4 footer-part">
+                <h4 className="highlighted">thanks for visiting</h4>
+            </div>
+            <div className="col-md-4 footer-part">
+                <h4 className="highlighted">Contact With Us :</h4>
+                <ul className="icon-container">
+                    <p> <i className="fab fa-facebook-square"></i></p>
+                    <p><i className="fab fa-youtube"></i></p>
+                    <p><i className="fab fa-instagram-square"></i></p>
+                    <p><i className="fab fa-linkedin"></i></p>
+                </ul>
+
+            </div>
+        </footer>
+       </div>
+      </div>
     );
 };
 
