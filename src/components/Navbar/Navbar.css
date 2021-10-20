@@ -4,9 +4,9 @@
     color: #D10B22;
     font-weight: 500;
 }
-.navbar{
-    margin-bottom: 60px;
-   
+
+.navbar-section{
+    margin-bottom: 100px;
 }
 .logo{
     text-decoration: none;
@@ -20,3 +20,7 @@
     color: white;
 
 }
+.navbar-container{
+    flex-wrap: nowrap;
+}
+

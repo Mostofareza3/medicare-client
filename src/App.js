@@ -21,49 +21,49 @@ function App() {
 
       <AuthProvider>
         <BrowserRouter>
-        <Navigation></Navigation>
+          <Navigation></Navigation>
 
           <Switch>
             <Route exact path="/">
               <Home></Home>
-          <Footer></Footer>
+              <Footer></Footer>
             </Route>
             <Route path="/home">
               <Home></Home>
-          <Footer></Footer>
+              <Footer></Footer>
             </Route>
             <Route path="/about">
-              <About/>
-          <Footer></Footer>
+              <About />
+              <Footer></Footer>
             </Route>
             <PrivateRoute path="/services">
-              <Services/>
-          <Footer></Footer>
+              <Services />
+              <Footer></Footer>
             </PrivateRoute>
             <PrivateRoute path="/service/:id">
-            <ServiceDetail></ServiceDetail>
+              <ServiceDetail></ServiceDetail>
             </PrivateRoute>
             <Route path="/news">
               <News></News>
-          <Footer></Footer>
+              <Footer></Footer>
             </Route>
-            <PrivateRoute path="/contact">
+            <Route path="/contact">
               <Contact></Contact>
-          <Footer></Footer>
-            </PrivateRoute>
+              <Footer></Footer>
+            </Route>
             <Route path="/login">
               <Login></Login>
-          <Footer></Footer>
+              <Footer></Footer>
             </Route>
             <Route path="/signup">
               <SignUp></SignUp>
-          <Footer></Footer>
+              <Footer></Footer>
             </Route>
             <Route path="*">
-            <NotFound></NotFound>
-          </Route>
+              <NotFound></NotFound>
+            </Route>
           </Switch>
-         
+
         </BrowserRouter>
       </AuthProvider>
     </div>

@@ -8,8 +8,9 @@ import useAuth from '../../hooks/useAuth';
 const Navigation = () => {
   const { user, logOut } = useAuth();
   return (
-    <div className="navbar">
-      <Navbar  className="navbar-collapse" id="navbarToggleExternalContent" fixed="top" bg="dark" variant="dark" expand="md sm">
+   
+      <div className="navbar-section">
+      <Navbar  className="navbar-collapse" id="navbarToggleExternalContent" fixed="top" bg="dark" variant="dark" expand="sm">
         <Container className="navbar-container">
           <Link className="logo" readOnly to="/home">MEDICARE</Link>
           <Nav className="me-auto">
@@ -20,7 +21,8 @@ const Navigation = () => {
             <Link className="nav-a" to="/contact">Contact</Link>
           </Nav>
           <Nav>
-          {user.email ?
+        
+        {user.email ?
               <small className="user-name text-white" eventkey={2}> Login as : {user?.displayName}
 
               </small> : <small>{ }</small>}
@@ -34,11 +36,13 @@ const Navigation = () => {
               <><Link className="nav-a" to="/login">Login</Link>
               <Link className="nav-a" to="/signup">Sign up</Link></>
               }
+        
            
           </Nav>
         </Container>
       </Navbar>
     </div>
+
   );
 };
 

@@ -8,27 +8,27 @@ const useData = () => {
    const [news, setNews] = useState([])
 
    useEffect(()=>{
-       fetch('/services.JSON')
+       fetch('/services.json')
        .then(res => res.json())
        .then(data => setServices(data) )
    },[])
 
    useEffect(()=>{
-       fetch('/ourTeam.JSON')
+       fetch('/ourTeam.json')
        .then(res=> res.json())
        .then(data => setDoctors(data))
    },[])
 
    useEffect(()=>{
-       fetch('/testimonial.JSON')
+       fetch('/testimonial.json')
        .then(data=>data.json())
        .then(res=> setTestimonials(res))
    },[])
 
    useEffect(()=>{
-       fetch('/news.JSON')
-       .then(res=>res.json())
-       .then(data => setNews(data))
+       fetch('/news.json')
+       .then(data=>data.json())
+       .then(res => setNews(res))
    },[])
    return{
        services,

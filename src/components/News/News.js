@@ -1,4 +1,5 @@
 import React from 'react';
+import useAuth from '../../hooks/useAuth';
 import useData from '../../hooks/useData';
 import './News.css'
 

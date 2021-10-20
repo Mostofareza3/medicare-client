@@ -6,14 +6,14 @@ import './UpdateNews.css'
 const UpdateNews = () => {
 
     const { news } = useData();
-    const slicedNews = news.slice(0, 3)
+    // const slicedNews = news.slice(0, 3)
     return (
         <div className="container update-news-section">
             <h1 className="title">Medicare updates</h1>
             <p>Read our latest news from the company or general medical news. Feel free to ask questions in comments for any news you find interesting.</p>
             <div className="home-news-container">
                 {
-                    slicedNews.map(nw =>
+                    news.map(nw =>
                         <div key={nw.id} className="single-news">
                             <div>
                                 <img src={nw.img} alt="" />

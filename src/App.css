@@ -44,11 +44,7 @@
 }
 
 @media screen and (max-width: 480px)  {
-  /* .navbar-container{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-  } */
+
   .introduce-container{
       flex-direction: column;
   }
@@ -74,4 +70,8 @@
     background-color: #D10B22;
 
   }
+  .navbar-section{
+    margin-bottom: 150px;
+}
+
 }
