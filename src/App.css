@@ -42,3 +42,36 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width: 480px)  {
+  /* .navbar-container{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  } */
+  .introduce-container{
+      flex-direction: column;
+  }
+  .experts-container{
+      flex-direction: column;
+  }
+  .overview-section{
+      flex-direction: column;
+  }
+  .testimonial{
+      
+     display: none;
+  }
+  .treatment-container{
+      flex-direction: column;
+  }
+  .home-news-container{
+    flex-direction: column;
+  }
+  .news-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #D10B22;
+
+  }
+}

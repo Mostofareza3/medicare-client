@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useData from '../../hooks/useData';
 import './UpdateNews.css'
 
@@ -26,12 +27,15 @@ const UpdateNews = () => {
                                 <p>{nw.description}</p>
                             </div>
                             <div>
-
                             </div>
+                            
                         </div>
                     )
                 }
+
             </div>
+           <Link to="/news"> <button className="btn btn-warning">More News....</button></Link>
+
         </div>
     );
 };

@@ -1,13 +1,17 @@
 import React from 'react';
+import { Spinner } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import useData from '../../hooks/useData';
 import './ServiceDetail.css'
 
 const ServiceDetail = () => {
     const { id } = useParams();
-    const { services } = useData();
+    const { services, isLoading } = useData();
 
     const specific = services.find(service => service.id == id);
+    if (isLoading) {
+        return <Spinner animation="border" variant="danger" />
+    }
   
     return (
         <div className="single-service-container container">

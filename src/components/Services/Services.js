@@ -5,11 +5,6 @@ import useData from '../../hooks/useData';
 import './Main.css'
 
 const Services = () => {
-    // const history = useHistory();
-
-    // // const handleOnClick =() =>{
-    // //     history.push('/services')
-    // // }
 
     const {services} = useData()
   

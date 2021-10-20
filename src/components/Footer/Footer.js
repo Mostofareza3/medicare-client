@@ -11,10 +11,10 @@ const Footer = () => {
                <p>Stay Connected With MEDICARE</p>
             </div>
             <div className="col-md-4 footer-part">
-                <h4 className="highlighted">thanks for visiting</h4>
+                <h4 className="highlighted">THANKS FOR VISITING</h4>
             </div>
             <div className="col-md-4 footer-part">
-                <h4 className="highlighted">Contact With Us :</h4>
+                <h2>CONTACT WITH US :- </h2>
                 <ul className="icon-container">
                     <p> <i className="fab fa-facebook-square"></i></p>
                     <p><i className="fab fa-youtube"></i></p>

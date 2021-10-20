@@ -6,7 +6,7 @@
 }
 .navbar{
     margin-bottom: 60px;
-
+   
 }
 .logo{
     text-decoration: none;
@@ -17,6 +17,6 @@
     font-size: 20px;
 }
 .logo:hover{
-    color: red;
+    color: white;
 
 }

@@ -45,21 +45,3 @@
     color: #D10B22;
 }
 
-@media screen and (max-width: 480px)  {
-    .introduce-container{
-        flex-direction: column;
-    }
-    .experts-container{
-        flex-direction: column;
-    }
-    .overview-section{
-        flex-direction: column;
-    }
-    .testimonial{
-        
-       display: none;
-    }
-    .treatment-container{
-        flex-direction: column;
-    }
-}

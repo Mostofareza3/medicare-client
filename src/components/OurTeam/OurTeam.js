@@ -9,7 +9,7 @@ const OurTeam = () => {
             <div>
                 <div className="introduce-container">
                     <div>
-                        <img src="https://media.istockphoto.com/photos/happy-healthcare-practitioner-picture-id138205019?k=20&m=138205019&s=612x612&w=0&h=KpsSMVsplkOqTnAJmOye4y6DcciVYIBe5dYDgYXLVW4=" alt="" />
+                        <img className="img-fluid" src="https://media.istockphoto.com/photos/happy-healthcare-practitioner-picture-id138205019?k=20&m=138205019&s=612x612&w=0&h=KpsSMVsplkOqTnAJmOye4y6DcciVYIBe5dYDgYXLVW4=" alt="" />
                     </div>
                     <div>
                         <h2 className="title">INTRODUCE OUR TEAM</h2>

@@ -9,8 +9,8 @@ const Navigation = () => {
   const { user, logOut } = useAuth();
   return (
     <div className="navbar">
-      <Navbar fixed="top" bg="dark" variant="dark" expand="md sm">
-        <Container>
+      <Navbar  className="navbar-collapse" id="navbarToggleExternalContent" fixed="top" bg="dark" variant="dark" expand="md sm">
+        <Container className="navbar-container">
           <Link className="logo" readOnly to="/home">MEDICARE</Link>
           <Nav className="me-auto">
             <Link className="nav-a" to="/home">Home</Link>
@@ -20,6 +20,11 @@ const Navigation = () => {
             <Link className="nav-a" to="/contact">Contact</Link>
           </Nav>
           <Nav>
+          {user.email ?
+              <small className="user-name text-white" eventkey={2}> Login as : {user?.displayName}
+
+              </small> : <small>{ }</small>}
+
             {user.email ? 
             <button onClick={logOut} className="btn-danger rounded-2 mx-2 px-2">LOG OUT 
             <i className="fas fa-sign-out-alt"></i>
@@ -29,10 +34,7 @@ const Navigation = () => {
               <><Link className="nav-a" to="/login">Login</Link>
               <Link className="nav-a" to="/signup">Sign up</Link></>
               }
-            {user.email ?
-              <small className="user-name text-white" eventkey={2}> Login as : {user?.displayName}
-
-              </small> : <small>{ }</small>}
+           
           </Nav>
         </Container>
       </Navbar>

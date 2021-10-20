@@ -11,7 +11,7 @@ const Login = () => {
     const redirect_url = location?.state?.from || '/home';
 
 
-    const { signInUsingGoogle, signInWithEmailPassword, user, error,setIsLoading } = useAuth();
+    const { signInUsingGoogle, signInWithEmailPassword, error } = useAuth();
 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("")
@@ -39,7 +39,6 @@ const Login = () => {
             // setError(error.message)
 
         });
-        setIsLoading(false)
     }
 
 
